@@ -137,20 +137,62 @@
         </div>
     </section>
 
-    <!-- Scrolling Ticker -->
-    <div class="ticker-wrap">
-        <div class="ticker">
-            <div class="ticker-item">AI Engineering <span class="separator">*</span></div>
-            <div class="ticker-item">Full-Stack Development <span class="separator">*</span></div>
-            <div class="ticker-item">Mobile Apps <span class="separator">*</span></div>
-            <div class="ticker-item">Cloud Solutions <span class="separator">*</span></div>
-            <div class="ticker-item">UI/UX Design <span class="separator">*</span></div>
-            <!-- Duplicate for seamless loop -->
-            <div class="ticker-item">AI Engineering <span class="separator">*</span></div>
-            <div class="ticker-item">Full-Stack Development <span class="separator">*</span></div>
-            <div class="ticker-item">Mobile Apps <span class="separator">*</span></div>
-            <div class="ticker-item">Cloud Solutions <span class="separator">*</span></div>
-            <div class="ticker-item">UI/UX Design <span class="separator">*</span></div>
+    <!-- Dual Tickers -->
+    <div class="ticker-container">
+        <!-- Roles Ticker (Left to Right) -->
+        <div class="ticker-wrap ticker-roles">
+            <div class="ticker">
+                <div class="ticker-item">AI Engineer</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">Full-Stack Developer</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">Java Developer</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">Backend Specialist</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">AI Engineer</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">Full-Stack Developer</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">Java Developer</div>
+                <div class="ticker-item separator">+</div>
+                <div class="ticker-item">Backend Specialist</div>
+                <div class="ticker-item separator">+</div>
+            </div>
+        </div>
+
+        <!-- Skills Ticker (Right to Left / Reverse) -->
+        <div class="ticker-wrap ticker-skills">
+            <div class="ticker ticker-reverse">
+                <div class="ticker-item">Java</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Python</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Spring Boot</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">React</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Vertex AI</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">n8n</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">RAG</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">GCP</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">MySQL</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Git</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Java</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Python</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">Spring Boot</div>
+                <div class="ticker-item separator">•</div>
+                <div class="ticker-item">React</div>
+                <div class="ticker-item separator">•</div>
+            </div>
         </div>
     </div>
 
@@ -244,224 +286,284 @@
                 </div>
             </div>
         </div>
-    </section>
+        <!-- Technical Proficiency Section -->
+        <section class="skills-tech" id="tech-skills">
+            <div class="container">
+                <h2 class="section-title">Technical <span class="accent">Proficiency</span></h2>
 
-    <!-- Skills/Services Section -->
-    <section id="skills" class="services">
-        <div class="container">
-            <h4 class="section-subtitle">My Expertise</h4>
-            <h2 class="section-title">What I <span class="accent">Do</span></h2>
+                <div class="tech-grid">
+                    <!-- Programming -->
+                    <div class="tech-category">
+                        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                        <div class="tech-tags">
+                            <span>Java</span><span>JavaScript</span><span>Python</span><span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
 
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
-                    <h3>Full-Stack Dev</h3>
-                    <p>Building robust web applications using React, TypeScript, Node.js, Spring Boot, and
-                        MongoDB/MySQL.</p>
-                    <ul class="service-list">
-                        <li>React & Next.js</li>
-                        <li>Node.js & Express</li>
-                        <li>Spring Boot</li>
-                        <li>Database Design</li>
-                    </ul>
-                </div>
+                    <!-- Frameworks -->
+                    <div class="tech-category">
+                        <h3><i class="fa-solid fa-layer-group"></i> Frameworks</h3>
+                        <div class="tech-tags">
+                            <span>Spring Boot</span><span>React</span><span>ModelMapper</span><span>Lombok</span>
+                        </div>
+                    </div>
 
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-                    <h3>AI & Machine Learning</h3>
-                    <p>Integrating AI capabilities into applications using Python, Gemini API, and other LLMs.</p>
-                    <ul class="service-list">
-                        <li>Python & FastAPI</li>
-                        <li>LLM Integration</li>
-                        <li>AI Agents</li>
-                        <li>Data Analysis</li>
-                    </ul>
-                </div>
+                    <!-- Web Development -->
+                    <div class="tech-category">
+                        <h3><i class="fa-solid fa-globe"></i> Web Dev</h3>
+                        <div class="tech-tags">
+                            <span>REST APIs</span><span>Filters</span><span>Dashboards</span><span>Interactive
+                                Forms</span>
+                        </div>
+                    </div>
 
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-                    <h3>Mobile Development</h3>
-                    <p>Creating cross-platform mobile experiences with React Native and Expo.</p>
-                    <ul class="service-list">
-                        <li>React Native</li>
-                        <li>NativeWind</li>
-                        <li>Firebase Integration</li>
-                        <li>Android & iOS</li>
-                    </ul>
-                </div>
+                    <!-- Database & Cloud -->
+                    <div class="tech-category">
+                        <h3><i class="fa-solid fa-database"></i> Data & Cloud</h3>
+                        <div class="tech-tags">
+                            <span>MySQL</span><span>JDBC</span><span>GCP</span><span>JWT Auth</span><span>Cloud
+                                Storage</span>
+                        </div>
+                    </div>
 
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-cloud"></i></div>
-                    <h3>Cloud & DevOps</h3>
-                    <p>Deploying and managing applications with modern CI/CD pipelines and cloud services.</p>
-                    <ul class="service-list">
-                        <li>Git & GitHub Actions</li>
-                        <li>Firebase</li>
-                        <li>REST APIs</li>
-                        <li>System Design</li>
-                    </ul>
+                    <!-- Automation & AI -->
+                    <div class="tech-category">
+                        <h3><i class="fa-solid fa-robot"></i> AI & Automation</h3>
+                        <div class="tech-tags">
+                            <span>Vertex AI</span><span>RAG</span><span>Vector
+                                DB</span><span>n8n</span><span>Flowise</span><span>Local Models</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="tech-category">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+                        <div class="tech-tags">
+                            <span>Git</span><span>Linux
+                                (Arch)</span><span>Docker</span><span>Tomcat</span><span>SDKMAN</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Awards Section -->
-    <section class="awards">
-        <div class="container">
-            <div class="awards-banner">
-                <div class="award-content">
-                    <i class="fa-solid fa-trophy award-icon"></i>
+        <!-- Services Section -->
+        <section id="skills" class="services">
+            <div class="container">
+                <h4 class="section-subtitle">My Expertise</h4>
+                <h2 class="section-title">What I <span class="accent">Do</span></h2>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Full-Stack Dev</h3>
+                        <p>Building robust web applications using React, TypeScript, Node.js, Spring Boot, and
+                            MongoDB/MySQL.</p>
+                        <ul class="service-list">
+                            <li>React & Next.js</li>
+                            <li>Node.js & Express</li>
+                            <li>Spring Boot</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Integrating AI capabilities into applications using Python, Gemini API, and other LLMs.</p>
+                        <ul class="service-list">
+                            <li>Python & FastAPI</li>
+                            <li>LLM Integration</li>
+                            <li>AI Agents</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <h3>Mobile Development</h3>
+                        <p>Creating cross-platform mobile experiences with React Native and Expo.</p>
+                        <ul class="service-list">
+                            <li>React Native</li>
+                            <li>NativeWind</li>
+                            <li>Firebase Integration</li>
+                            <li>Android & iOS</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-cloud"></i></div>
+                        <h3>Cloud & DevOps</h3>
+                        <p>Deploying and managing applications with modern CI/CD pipelines and cloud services.</p>
+                        <ul class="service-list">
+                            <li>Git & GitHub Actions</li>
+                            <li>Firebase</li>
+                            <li>REST APIs</li>
+                            <li>System Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="awards">
+            <div class="container">
+                <div class="awards-banner">
+                    <div class="award-content">
+                        <i class="fa-solid fa-trophy award-icon"></i>
+                        <div>
+                            <h3>Inovesta '24 - 2nd Place</h3>
+                            <p>Awarded for Best Team Project at Institute of Software Engineering (IJSE)</p>
+                        </div>
+                    </div>
+                    <div class="award-date">2024</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="projects-header">
                     <div>
-                        <h3>Inovesta '24 - 2nd Place</h3>
-                        <p>Awarded for Best Team Project at Institute of Software Engineering (IJSE)</p>
+                        <h4 class="section-subtitle">Portfolio</h4>
+                        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
                     </div>
-                </div>
-                <div class="award-date">2024</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="projects-header">
-                <div>
-                    <h4 class="section-subtitle">Portfolio</h4>
-                    <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
-                </div>
-                <a href="https://github.com/tharindu765" target="_blank" class="view-all-link">View GitHub <i
-                        class="fa-solid fa-arrow-right"></i></a>
-            </div>
-
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/images/project-bookclub.png" alt="Book Club App">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <span class="project-category">Full-Stack</span>
-                        <h3>Library Management System</h3>
-                        <p>A complete book club app with JWT auth, real-time email notifications, and dashboard.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                            <span>TypeScript</span>
-                        </div>
-                    </div>
+                    <a href="https://github.com/tharindu765" target="_blank" class="view-all-link">View GitHub <i
+                            class="fa-solid fa-arrow-right"></i></a>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/images/project-bot.png" alt="AI Code Review Bot">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/project-bookclub.png" alt="Book Club App">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Full-Stack</span>
+                            <h3>Library Management System</h3>
+                            <p>A complete book club app with JWT auth, real-time email notifications, and dashboard.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>TypeScript</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="project-info">
-                        <span class="project-category">AI & Automation</span>
-                        <h3>AI Code Review Bot</h3>
-                        <p>Automated GitHub PR reviewer using Google Gemini 2.5 Flash API and GitHub Actions.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Gemini API</span>
-                            <span>GitHub Actions</span>
-                            <span>FastAPI</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/images/project-skillsphere.png" alt="SkillSphere Platform">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/project-bot.png" alt="AI Code Review Bot">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">AI & Automation</span>
+                            <h3>AI Code Review Bot</h3>
+                            <p>Automated GitHub PR reviewer using Google Gemini 2.5 Flash API and GitHub Actions.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Gemini API</span>
+                                <span>GitHub Actions</span>
+                                <span>FastAPI</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="project-info">
-                        <span class="project-category">Web Platform</span>
-                        <h3>SkillSphere - Course Platform</h3>
-                        <p>Online learning platform with instructor dashboards and student enrollment system.</p>
-                        <div class="project-tech">
-                            <span>Spring Boot</span>
-                            <span>Java</span>
-                            <span>MySQL</span>
-                            <span>Hibernate</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/images/project-dating.png" alt="Dating App">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/project-skillsphere.png" alt="SkillSphere Platform">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web Platform</span>
+                            <h3>SkillSphere - Course Platform</h3>
+                            <p>Online learning platform with instructor dashboards and student enrollment system.</p>
+                            <div class="project-tech">
+                                <span>Spring Boot</span>
+                                <span>Java</span>
+                                <span>MySQL</span>
+                                <span>Hibernate</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="project-info">
-                        <span class="project-category">Mobile App</span>
-                        <h3>Cross-Platform Dating App</h3>
-                        <p>Mobile dating application with real-time chat, matchmaking, and push notifications.</p>
-                        <div class="project-tech">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                            <span>Expo</span>
-                            <span>NativeWind</span>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/project-dating.png" alt="Dating App">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Mobile App</span>
+                            <h3>Cross-Platform Dating App</h3>
+                            <p>Mobile dating application with real-time chat, matchmaking, and push notifications.</p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Expo</span>
+                                <span>NativeWind</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="contact-wrapper">
-                <h2 class="contact-title">GET IN <span class="text-outline">TOUCH</span></h2>
-                <p class="contact-text">
-                    Have a project in mind or want to discuss AI solutions? I'm currently available for freelance work
-                    and open to new opportunities.
-                </p>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <h2 class="contact-title">GET IN <span class="text-outline">TOUCH</span></h2>
+                    <p class="contact-text">
+                        Have a project in mind or want to discuss AI solutions? I'm currently available for freelance
+                        work
+                        and open to new opportunities.
+                    </p>
 
-                <a href="mailto:tharindurandika25@gmail.com" class="email-link">
-                    tharindurandika25@gmail.com
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
+                    <a href="mailto:tharindurandika25@gmail.com" class="email-link">
+                        tharindurandika25@gmail.com
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
 
-                <div class="contact-socials">
-                    <a href="https://www.linkedin.com/in/tharindu-randika-6b59202a9/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/tharindu765" target="_blank">GitHub</a>
-                    <a href="#" target="_blank">Instagram</a>
-                    <a href="https://www.fiverr.com/s/kLEdVpW" target="_blank">Fiverr</a>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/tharindu-randika-6b59202a9/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/tharindu765" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="https://www.fiverr.com/s/kLEdVpW" target="_blank">Fiverr</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-logo">
-                <img src="assets/images/logo.svg" alt="TR Logo" style="height: 30px;">
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="TR Logo" style="height: 30px;">
+                </div>
+                <p class="copyright">&copy; 2026 Tharindu Randika. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
             </div>
-            <p class="copyright">&copy; 2026 Tharindu Randika. All Rights Reserved.</p>
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
