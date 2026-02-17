@@ -437,13 +437,21 @@ img {
     /* Gap between tickers */
 }
 
+/* Second ticker style - Dark theme */
 .ticker-skills {
-    background-color: #fff;
-    /* Alternate color for contrast */
+    background-color: #1a1a1a;
+    /* Dark background */
+    border-top: 1px solid var(--accent);
+    border-bottom: 1px solid var(--accent);
 }
 
 .ticker-skills .ticker-item {
-    color: #000;
+    color: var(--text-primary);
+    /* White text */
+}
+
+.ticker-skills .separator {
+    color: var(--accent);
 }
 
 .ticker {
@@ -487,62 +495,6 @@ img {
     100% {
         transform: translateX(0%);
     }
-}
-
-/* Technical Skills Section */
-.skills-tech {
-    padding: 80px 0;
-    background-color: var(--bg-card);
-    border-top: 1px solid var(--border-color);
-}
-
-.tech-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.tech-category {
-    background: rgba(255, 255, 255, 0.02);
-    padding: 25px;
-    border-radius: 15px;
-    border: 1px solid var(--border-color);
-    transition: var(--transition);
-}
-
-.tech-category:hover {
-    border-color: var(--accent);
-    background: rgba(205, 255, 0, 0.05);
-}
-
-.tech-category h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--accent);
-}
-
-.tech-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.tech-tags span {
-    font-size: 13px;
-    padding: 6px 12px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 20px;
-    color: var(--text-secondary);
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-
-.tech-category:hover .tech-tags span {
-    background: rgba(205, 255, 0, 0.1);
-    color: var(--text-primary);
 }
 
 /* About Section */
