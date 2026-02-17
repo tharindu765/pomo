@@ -951,6 +951,8 @@ img {
 }
 
 /* Footer */
+
+/* Footer */
 .footer {
     padding: 0;
     /* Removing padding as we align items center with height */
@@ -962,6 +964,8 @@ img {
 }
 
 .footer-container {
+    width: 100%;
+    /* Fix: Ensure container takes full width to space items */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -970,12 +974,14 @@ img {
 .footer-logo {
     font-family: var(--font-heading);
     font-weight: 800;
-    font-size: 16px;
+    font-size: 20px;
+    /* Restored to original */
 }
 
 .copyright {
     color: var(--text-secondary);
-    font-size: 12px;
+    font-size: 14px;
+    /* Restored to original */
 }
 
 .heart {
