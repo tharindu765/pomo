@@ -1005,11 +1005,12 @@ img {
     .scroll-down {
         left: 50%;
         transform: translateX(-50%);
-        bottom: 20px;
+        bottom: 10px;
         writing-mode: horizontal-tb;
         text-orientation: mixed;
         flex-direction: column;
         gap: 5px;
+        font-size: 10px;
     }
 
     .scroll-down i {
