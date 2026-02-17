@@ -940,3 +940,99 @@ img {
         gap: 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Fix button sizes */
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .hero-btns {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .hero-btns .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Fix scroll down indicator */
+    .scroll-down {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .scroll-down i {
+        animation: bounce 2s infinite;
+    }
+    
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+        40% { transform: translateY(5px); }
+        60% { transform: translateY(3px); }
+    }
+
+    /* Adjust typography */
+    .hero-title {
+        font-size: 36px;
+    }
+    
+    .hero-description {
+        font-size: 16px;
+    }
+    
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    
+    /* Fix horizontal overflow */
+    .hero-image-bg {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .floating-badge {
+        padding: 8px 12px;
+    }
+    
+    .floating-badge span {
+        font-size: 12px;
+    }
+    
+    .badge-1 {
+        left: 0;
+    }
+    
+    .badge-2 {
+        right: 0;
+    }
+    
+    /* Adjust contact section */
+    .contact-title {
+        font-size: 40px;
+    }
+    
+    .email-link {
+        font-size: 18px;
+        word-break: break-all;
+    }
+    
+    .contact-socials a {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+    }
+}
