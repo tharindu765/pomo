@@ -1087,4 +1087,30 @@ img {
         font-size: 14px;
         width: 100%;
     }
+
+    /* Fix Social Icons in Hero */
+    .social-links-hero {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .social-links-hero a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /* Fix About Info sizing */
+    .personal-info-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .info-item .label {
+        font-size: 10px;
+    }
+
+    .info-item .value {
+        font-size: 14px;
+    }
 }
