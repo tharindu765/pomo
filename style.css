@@ -952,8 +952,13 @@ img {
 
 /* Footer */
 .footer {
-    padding: 10px 0;
+    padding: 0;
+    /* Removing padding as we align items center with height */
+    height: var(--header-height);
+    /* Match navbar height */
     border-top: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 .footer-container {
@@ -1081,15 +1086,17 @@ img {
 
     /* Adjust scroll down for mobile */
     .scroll-down {
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 25px;
-        /* Increased from 10px */
+        position: relative;
+        /* Force relative to flow */
+        left: auto;
+        transform: none;
+        bottom: auto;
+        margin-top: 20px;
         writing-mode: horizontal-tb;
         text-orientation: mixed;
-        flex-direction: column;
+        flex-direction: row;
         gap: 8px;
-        font-size: 10px;
+        font-size: 12px;
         width: 100%;
         justify-content: center;
     }
