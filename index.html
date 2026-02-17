@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharindu Randika | AI Engineer & Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Tharindu Randika, an AI Engineer Intern and Full-Stack Developer based in Sri Lanka. Specializing in React, Node.js, Python, and AI integration.">
+    <meta name="keywords"
+        content="Tharindu Randika, AI Engineer, Full-Stack Developer, Software Engineer, Portfolio, Sri Lanka, React, Node.js, Python">
+    <meta name="author" content="Tharindu Randika">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tharindurandika.com/">
+    <meta property="og:title" content="Tharindu Randika | AI Engineer & Full-Stack Developer">
+    <meta property="og:description"
+        content="Portfolio of Tharindu Randika, an AI Engineer Intern and Full-Stack Developer capable of building modern web and mobile applications.">
+    <meta property="og:image" content="assets/images/logo.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tharindurandika.com/">
+    <meta property="twitter:title" content="Tharindu Randika | AI Engineer & Full-Stack Developer">
+    <meta property="twitter:description"
+        content="Portfolio of Tharindu Randika, an AI Engineer Intern and Full-Stack Developer capable of building modern web and mobile applications.">
+    <meta property="twitter:image" content="assets/images/logo.svg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.svg" alt="TR Logo" style="height: 40px;">
+            </a>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#experience" class="mobile-link">Experience</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span class="online-status"></span> Available for Freelance & Jobs
+                </div>
+                <!-- This needs to be checked. Matias theme has this huge typography. -->
+                <h1 class="hero-title">
+                    Creative <br>
+                    <span class="text-outline">AI Engineer</span> <br>
+                    & Developer
+                </h1>
+                <p class="hero-description">
+                    I'm Tharindu Randika, an AI Engineer Intern based in Sri Lanka.
+                    I build intelligent web solutions and mobile applications that solve real-world problems.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links-hero">
+                    <a href="https://linkedin.com/in/tharindurandika" target="_blank" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/tharindu765" target="_blank" aria-label="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-bg"></div>
+                <img src="assets/images/profile.jpg" alt="Tharindu Randika" class="hero-img">
+
+                <!-- Floating badges -->
+                <div class="floating-badge badge-1">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React / Native</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>AI Integration</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fa-solid fa-arrow-down-long"></i>
+        </div>
+    </section>
+
+    <!-- Scrolling Ticker -->
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <div class="ticker-item">AI Engineering <span class="separator">*</span></div>
+            <div class="ticker-item">Full-Stack Development <span class="separator">*</span></div>
+            <div class="ticker-item">Mobile Apps <span class="separator">*</span></div>
+            <div class="ticker-item">Cloud Solutions <span class="separator">*</span></div>
+            <div class="ticker-item">UI/UX Design <span class="separator">*</span></div>
+            <!-- Duplicate for seamless loop -->
+            <div class="ticker-item">AI Engineering <span class="separator">*</span></div>
+            <div class="ticker-item">Full-Stack Development <span class="separator">*</span></div>
+            <div class="ticker-item">Mobile Apps <span class="separator">*</span></div>
+            <div class="ticker-item">Cloud Solutions <span class="separator">*</span></div>
+            <div class="ticker-item">UI/UX Design <span class="separator">*</span></div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <!-- Using a tech-themed illustration for about section -->
+                <img src="assets/images/about-illustration.png" alt="Working on code" class="about-img-3d">
+            </div>
+            <div class="about-content">
+                <h4 class="section-subtitle">About Me</h4>
+                <h2 class="section-title">Turning Complex Problems into <span class="accent">Code</span></h2>
+                <p class="about-text">
+                    I am a Software Engineering undergraduate at IJSE with a strong passion for Artificial Intelligence
+                    and Full-Stack Development.
+                    Currently working as an <strong>AI Engineer Intern at Software Plus Pvt Ltd</strong>, I specialize
+                    in building scalable web applications and integrating AI models to enhance user experiences.
+                </p>
+                <p class="about-text">
+                    With experience in React, Node.js, Python, and Cloud technologies, I am committed to writing clean,
+                    efficient code and contributing effectively to innovative projects.
+                </p>
+
+                <div class="personal-info-grid">
+                    <div class="info-item">
+                        <span class="label">Email</span>
+                        <span class="value">tharindurandika25@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Phone</span>
+                        <span class="value">+94 724722108</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Location</span>
+                        <span class="value">Sri Lanka</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Education</span>
+                        <span class="value">BSc (Hons) Computer Science</span>
+                    </div>
+                </div>
+
+                <a href="Tharindu_Randika_CV_4.pdf" target="_blank" class="btn btn-outline">Download CV <i
+                        class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h4 class="section-subtitle">My Journey</h4>
+            <h2 class="section-title">Experience & <span class="accent">Education</span></h2>
+
+            <div class="timeline">
+                <!-- Work Experience -->
+                <div class="timeline-item active">
+                    <div class="timeline-year">Dec 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>AI Engineer Intern</h3>
+                        <span class="company">Software Plus Pvt Ltd</span>
+                        <p>Working on AI integration, developing scalable web solutions, and contributing to software
+                            architecture. Currently 2 months into a 6-month internship.</p>
+                        <div class="tags">
+                            <span>AI Integration</span>
+                            <span>Full-Stack</span>
+                            <span>Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-year">Sep 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>BSc (Hons) Computer Science in Software Engineering</h3>
+                        <span class="company">Institute of Software Engineering (IJSE)</span>
+                        <p>Specializing in Software Engineering & Development. Gained strong foundation in algorithms,
+                            data structures, and modern software practices.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">Aug 2019 - Jan 2023</div>
+                    <div class="timeline-content">
+                        <h3>G.C.E Advanced Level</h3>
+                        <span class="company">Gnanodaya Maha Vidyalaya</span>
+                        <p>Specialization in Physical Science Stream with ICT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills/Services Section -->
+    <section id="skills" class="services">
+        <div class="container">
+            <h4 class="section-subtitle">My Expertise</h4>
+            <h2 class="section-title">What I <span class="accent">Do</span></h2>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Full-Stack Dev</h3>
+                    <p>Building robust web applications using React, TypeScript, Node.js, Spring Boot, and
+                        MongoDB/MySQL.</p>
+                    <ul class="service-list">
+                        <li>React & Next.js</li>
+                        <li>Node.js & Express</li>
+                        <li>Spring Boot</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Integrating AI capabilities into applications using Python, Gemini API, and other LLMs.</p>
+                    <ul class="service-list">
+                        <li>Python & FastAPI</li>
+                        <li>LLM Integration</li>
+                        <li>AI Agents</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <h3>Mobile Development</h3>
+                    <p>Creating cross-platform mobile experiences with React Native and Expo.</p>
+                    <ul class="service-list">
+                        <li>React Native</li>
+                        <li>NativeWind</li>
+                        <li>Firebase Integration</li>
+                        <li>Android & iOS</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Deploying and managing applications with modern CI/CD pipelines and cloud services.</p>
+                    <ul class="service-list">
+                        <li>Git & GitHub Actions</li>
+                        <li>Firebase</li>
+                        <li>REST APIs</li>
+                        <li>System Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards">
+        <div class="container">
+            <div class="awards-banner">
+                <div class="award-content">
+                    <i class="fa-solid fa-trophy award-icon"></i>
+                    <div>
+                        <h3>Inovesta '24 - 2nd Place</h3>
+                        <p>Awarded for Best Team Project at Institute of Software Engineering (IJSE)</p>
+                    </div>
+                </div>
+                <div class="award-date">2024</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="projects-header">
+                <div>
+                    <h4 class="section-subtitle">Portfolio</h4>
+                    <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+                </div>
+                <a href="https://github.com/tharindu765" target="_blank" class="view-all-link">View GitHub <i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/project-bookclub.png" alt="Book Club App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Full-Stack</span>
+                        <h3>Library Management System</h3>
+                        <p>A complete book club app with JWT auth, real-time email notifications, and dashboard.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/project-bot.png" alt="AI Code Review Bot">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">AI & Automation</span>
+                        <h3>AI Code Review Bot</h3>
+                        <p>Automated GitHub PR reviewer using Google Gemini 2.5 Flash API and GitHub Actions.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Gemini API</span>
+                            <span>GitHub Actions</span>
+                            <span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/project-skillsphere.png" alt="SkillSphere Platform">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Platform</span>
+                        <h3>SkillSphere - Course Platform</h3>
+                        <p>Online learning platform with instructor dashboards and student enrollment system.</p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>Hibernate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/images/project-dating.png" alt="Dating App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile App</span>
+                        <h3>Cross-Platform Dating App</h3>
+                        <p>Mobile dating application with real-time chat, matchmaking, and push notifications.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Expo</span>
+                            <span>NativeWind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <h2 class="contact-title">GET IN <span class="text-outline">TOUCH</span></h2>
+                <p class="contact-text">
+                    Have a project in mind or want to discuss AI solutions? I'm currently available for freelance work
+                    and open to new opportunities.
+                </p>
+
+                <a href="mailto:tharindurandika25@gmail.com" class="email-link">
+                    tharindurandika25@gmail.com
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+
+                <div class="contact-socials">
+                    <a href="https://linkedin.com/in/tharindurandika" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/tharindu765" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Fiverr</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="assets/images/logo.svg" alt="TR Logo" style="height: 30px;">
+            </div>
+            <p class="copyright">&copy; 2026 Tharindu Randika. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
