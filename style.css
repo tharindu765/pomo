@@ -952,7 +952,7 @@ img {
 
 /* Footer */
 .footer {
-    padding: 15px 0;
+    padding: 10px 0;
     border-top: 1px solid var(--border-color);
 }
 
@@ -1045,7 +1045,8 @@ img {
 
     .footer-container {
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
+        /* Reduced from 20px */
     }
 }
 
@@ -1071,23 +1072,33 @@ img {
         justify-content: center;
     }
 
-    /* Fix scroll down indicator */
+    /* Footer */
+    .footer p,
+    .footer h3,
+    .footer div {
+        margin: 0;
+    }
+
+    /* Adjust scroll down for mobile */
     .scroll-down {
         left: 50%;
         transform: translateX(-50%);
-        bottom: 10px;
+        bottom: 25px;
+        /* Increased from 10px */
         writing-mode: horizontal-tb;
         text-orientation: mixed;
         flex-direction: column;
-        gap: 5px;
+        gap: 8px;
         font-size: 10px;
+        width: 100%;
+        justify-content: center;
     }
 
     .scroll-down i {
-        animation: bounce 2s infinite;
+        animation: bounce-mobile 2s infinite;
     }
 
-    @keyframes bounce {
+    @keyframes bounce-mobile {
 
         0%,
         20%,
@@ -1098,11 +1109,12 @@ img {
         }
 
         40% {
-            transform: translateY(5px);
+            transform: translateY(-6px);
+            /* Bounce UP */
         }
 
         60% {
-            transform: translateY(3px);
+            transform: translateY(-3px);
         }
     }
 
