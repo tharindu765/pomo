@@ -424,8 +424,8 @@ img {
 
 /* Ticker */
 .ticker-container {
-    margin: 30px 0;
-    /* Reduced from 50px */
+    margin: 50px 0;
+    /* Increased from 30px for better spacing */
     transform: rotate(-2deg);
 }
 
@@ -590,7 +590,7 @@ img {
 
 /* Experience Section */
 .experience {
-    padding: 100px 0;
+    padding: 0 0;
     background-color: #111;
     /* Slightly lighter background */
 }
